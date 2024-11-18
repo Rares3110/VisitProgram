@@ -1,18 +1,19 @@
- 02:04:39.706 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Single Threading with newFixedThreadPool with one thread.
- 02:04:39.770 [main] INFO  org.jsxm.maven.plugin.jsxmtool.validation.SxmValidationManager - ---  Validation completed successfully.!
- 02:04:39.776 [main] INFO  org.jsxm.maven.plugin.jsxmtool.validation.SxmValidationManager - ---  Validating phase done : 72 ms
- 02:04:39.784 [main] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompilationManager - Testing directories
- 02:04:39.784 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.SxmCompilationUtils -   ---> Prescription
- 02:04:39.805 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Multithreading with newFixedThreadPool of12 threads.
- 02:04:39.823 [main] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompilationManager - ---  Compiling phase done : 43 ms
-general-Log 02:04:40.118 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.txt
-general-Log 02:04:40.118 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.pdf
- 02:04:40.211 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Multithreading with newFixedThreadPool of12 threads.
-general-Log 02:04:40.268 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.txt
-general-Log 02:04:40.268 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.pdf
- 02:04:40.287 [main] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerationManager - ---  Generation phase done : 76 ms
+ 19:10:06.125 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Single Threading with newFixedThreadPool with one thread.
+ 19:10:06.202 [main] INFO  org.jsxm.maven.plugin.jsxmtool.validation.SxmValidationManager - ---  Validation completed successfully.!
+ 19:10:06.209 [main] INFO  org.jsxm.maven.plugin.jsxmtool.validation.SxmValidationManager - ---  Validating phase done : 87 ms
+ 19:10:06.217 [main] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompilationManager - Testing directories
+ 19:10:06.219 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.SxmCompilationUtils -   ---> HealthcareSystem
+ 19:10:06.219 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.SxmCompilationUtils -   ---> Prescription
+ 19:10:06.239 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Multithreading with newFixedThreadPool of12 threads.
+ 19:10:06.265 [main] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompilationManager - ---  Compiling phase done : 52 ms
+general-Log 19:10:06.629 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.txt
+general-Log 19:10:06.629 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.pdf
+ 19:10:06.719 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Multithreading with newFixedThreadPool of12 threads.
+general-Log 19:10:06.794 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.txt
+general-Log 19:10:06.794 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.pdf
+ 19:10:06.814 [main] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerationManager - ---  Generation phase done : 95 ms
 
- 02:04:40.289 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Multithreading with newFixedThreadPool of12 threads.
-general-Log 02:04:40.317 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.txt
-general-Log 02:04:40.318 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.pdf
- 02:04:40.330 [main] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformationManager - ---  Transformation phase done : 41 ms
+ 19:10:06.816 [main] INFO  org.jsxm.maven.plugin.jsxmtool.core.JSXMThreadPoolFactory - ---  Multithreading with newFixedThreadPool of12 threads.
+general-Log 19:10:06.863 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.txt
+general-Log 19:10:06.863 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\general-Log\general-Log.pdf
+ 19:10:06.879 [main] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformationManager - ---  Transformation phase done : 63 ms

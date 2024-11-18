@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SXM name="HealthcareSystem"
+	xmlns="http://www.jsxm.org/schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.jsxm.org/schema http://www.jsxm.org/schema/specification.xsd">
+
+	<dependencies>
+		<uses sxm="Prescription"/>
+	</dependencies>
+
+	<!--States definition-->
+	<states>
+		<state name="idle"/>
+		<state name="pacient"/>
+		<state name="allpacients"/>
+		<state name="finished"/>
+	</states>
+
+	<!--Initial State definition-->
+	<initialState state="idle"/>
+
+	<!--Transitions definition-->
+	<transitions>
+		<transition from="idle" function="consult" to="pacient"/>
+		<transition from="idle" function="pacientList" to="allpacients"/>
+
+		<transition from="pacient" function="assignPrescription" to="pacient"/>
+		<transition from="pacient" function="informations" to="pacient"/>
+		<transition from="pacient" function="pacientList" to="allpacients"/>
+		<transition from="pacient" function="finish" to="finished"/>
+
+		<transition from="allpacients" function="addPacient" to="allpacients"/>
+		<transition from="allpacients" function="removePacient" to="allpacients"/>
+		<transition from="allpacients" function="consult" to="pacient"/>
+		<transition from="allpacients" function="finish" to="finished"/>
+	</transitions>
+
+	<!--Memory definition-->
+	<memory>
+		<declaration>
+			HashMap&lt;String, List&lt;PrescriptionSXM&gt;&gt; pacients;
+			String activePacientId;
+		</declaration>
+		<initial>
+			pacients = new HashMap&lt;String, List&lt;PrescriptionSXM&gt;&gt;();
+			activePacientId = null;
+		</initial>
+		<display>activePacientId + " " + pacients.toString()</display>
+		<javaImports>
+			import java.util.HashMap;
+			import java.util.*;
+		</javaImports>
+	</memory>
+
+	<methods>
+		public boolean isPrescriptionStringValid(String input) {
+			String[] parts = input.split(";");
+
+			if (parts.length % 2 != 0)
+				return false;
+
+			for (int i = 0; i &lt; parts.length - 1; i += 2) {
+				if (!parts[i + 1].matches("\\d+"))
+					return false;
+			}
+
+			return true;
+		}
+
+		public PrescriptionSXM convertToPrescription(String input) {
+			String[] parts = input.split(";");
+			PrescriptionSXM prescription = new PrescriptionSXM();
+			prescription.reset();
+
+			for (int i = 0; i &lt; parts.length - 1; i += 2) {
+				prescription.addItemInput(parts[i], Integer.parseInt(parts[i + 1]));
+			}
+
+			prescription.closeInput();
+			return prescription;
+		}
+	</methods>
+
+	<!--Inputs definition-->
+	<inputs>
+		<input name="consultInput">
+			<arg name="id" type="xs:string"/>
+		</input>
+
+		<input name="pacientListInput"/>
+
+		<input name="removePacientInput">
+			<arg name="id" type="xs:string"/>
+		</input>
+
+		<input name="addPacientInput">
+			<arg name="id" type="xs:string"/>
+		</input>
+
+		<input name="assignPrescriptionInput">
+			<arg name="prescriptionString" type="xs:string"/>
+		</input>
+
+		<input name="informationsInput"/>
+
+		<input name="finishInput"/>
+	</inputs>
+
+	<!--Outputs definition-->
+	<outputs>
+		<output name="consultOutput"/>
+
+		<output name="pacientListOutput">
+			<result name="result" type="xs:string"/>
+		</output>
+
+		<output name="addPacientOutput">
+			<result name="result" type="xs:string"/>
+		</output>
+
+		<output name="removePacientOutput">
+			<result name="result" type="xs:string"/>
+		</output>
+
+		<output name="assignPrescriptionOutput"/>
+
+		<output name="informationsOutput">
+			<result name="result" type="xs:string"/>
+		</output>
+
+		<output name="finishOutput"/>
+	</outputs>
+
+	<!--Functions definition-->
+	<functions>
+		<function name="consult" input="consultInput" output="consultOutput" xsi:type="OutputFunction">
+			<precondition>
+				pacients.containsKey(consultInput.get_id())
+			</precondition>
+			<effect>
+				activePacientId = consultInput.get_id();
+			</effect>
+		</function>
+
+		<function name="pacientList" input="pacientListInput" output="pacientListOutput" xsi:type="OutputFunction">
+			<effect>
+				pacientListOutput.result = "{" + String.join(";", pacients.keySet()) + "}";
+			</effect>
+		</function>
+
+		<function name="addPacient" input="addPacientInput" output="addPacientOutput" xsi:type="OutputFunction">
+			<precondition>
+				!pacients.containsKey(addPacientInput.get_id())
+			</precondition>
+			<effect>
+				pacients.put(addPacientInput.get_id(), new ArrayList&lt;PrescriptionSXM&gt;());
+				addPacientOutput.result = "{" + String.join(";", pacients.keySet()) + "}";
+			</effect>
+		</function>
+
+		<function name="removePacient" input="removePacientInput" output="removePacientOutput" xsi:type="OutputFunction">
+			<precondition>
+				pacients.containsKey(removePacientInput.get_id())
+			</precondition>
+			<effect>
+				pacients.remove(removePacientInput.get_id());
+				removePacientOutput.result = "{" + String.join(";", pacients.keySet()) + "}";
+			</effect>
+		</function>
+
+		<function name="assignPrescription" input="assignPrescriptionInput" output="assignPrescriptionOutput" xsi:type="OutputFunction">
+			<precondition>
+				isPrescriptionStringValid(assignPrescriptionInput.get_prescriptionString()) &amp;&amp; activePacientId != null
+			</precondition>
+			<effect>
+				pacients.get(activePacientId).add(convertToPrescription(assignPrescriptionInput.get_prescriptionString()));
+			</effect>
+		</function>
+
+		<function name="informations" input="informationsInput" output="informationsOutput" xsi:type="OutputFunction">
+			<precondition>
+				activePacientId != null
+			</precondition>
+			<effect>
+				List&lt;PrescriptionSXM&gt; prescriptions = pacients.get(activePacientId);
+				String allPrescriptions = "";
+
+				for (PrescriptionSXM prescription : prescriptions) {
+					allPrescriptions = allPrescriptions + prescription.getContentInput().result;
+				}
+
+				informationsOutput.result = allPrescriptions;
+			</effect>
+		</function>
+
+		<function name="finish" input="finishInput" output="finishOutput" xsi:type="OutputFunction">
+			<effect>
+				activePacientId = null;
+			</effect>
+		</function>
+	</functions>
+
+	<!--Test Input Generation definition-->
+	<testinputgeneration>
+		<inputgenerator function="consult"/>
+		<inputgenerator function="pacientList"/>
+		<inputgenerator function="addPacient"/>
+		<inputgenerator function="removePacient"/>
+		<inputgenerator function="assignPrescription"/>
+		<inputgenerator function="informations"/>
+		<inputgenerator function="finish"/>
+	</testinputgeneration>
+
+</SXM>

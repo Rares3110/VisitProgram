@@ -1,0 +1,24 @@
+HealthcareSystem 19:10:06.254 [pool-3-thread-1] ERROR org.jsxm.jsxmcore.util.XML - IOException : No 'definitions.xml' file. Continue with no definitions.
+HealthcareSystem 19:10:06.261 [pool-3-thread-1] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - TYPES USED in the specification: 
+HealthcareSystem 19:10:06.261 [pool-3-thread-1] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - Standard types: 
+HealthcareSystem 19:10:06.261 [pool-3-thread-1] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:string 
+HealthcareSystem 19:10:06.261 [pool-3-thread-1] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - User defined types: 
+HealthcareSystem 19:10:06.261 [pool-3-thread-1] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
+
+HealthcareSystem 19:10:06.261 [pool-3-thread-1] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - [addPacientInput -> addPacientOutput # [], informationsInput -> informationsOutput # [], removePacientInput -> removePacientOutput # [], assignPrescriptionInput -> assignPrescriptionOutput # [], consultInput -> consultOutput # [], pacientListInput -> pacientListOutput # [], finishInput -> finishOutput # []]
+HealthcareSystem 19:10:06.265 [pool-3-thread-1] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompiler - ---  Java files from JSXM specification HealthcareSystem.xml generated successfully ---
+HealthcareSystem 19:10:06.712 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\HealthcareSystem\HealthcareSystem.txt
+HealthcareSystem 19:10:06.712 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\HealthcareSystem\HealthcareSystem.pdf
+HealthcareSystem 19:10:06.738 [pool-4-thread-1] INFO  org.jsxm.jsxmcore.testcasegenerators.SetsReader - No [separablestates] tag in C:\Users\Rares\Desktop\VisitProgram/src/spec/org\jsxm\program\HealthcareSystem\\specification\HealthcareSystem_sets.xml
+HealthcareSystem 19:10:06.738 [pool-4-thread-1] INFO  org.jsxm.jsxmcore.testcasegenerators.SetsReader - It is assumed that all states are pairwire separable.
+HealthcareSystem 19:10:06.738 [pool-4-thread-1] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - STATE COVER : [[]]
+HealthcareSystem 19:10:06.739 [pool-4-thread-1] ERROR org.jsxm.jsxmcore.core.SXM - State cover does not reach states: [allpacients, finished, pacient]
+HealthcareSystem 19:10:06.739 [pool-4-thread-1] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - State cover is not complete!
+HealthcareSystem 19:10:06.739 [pool-4-thread-1] ERROR org.jsxm.jsxmcore.runtimeexceptions.StateCoverNotCompleteException - For more information about the errors and possible solutions, please refer to the following article:
+HealthcareSystem 19:10:06.740 [pool-4-thread-1] ERROR org.jsxm.jsxmcore.runtimeexceptions.StateCoverNotCompleteException - http://www.jsxm.org/wiki/jsxmcore/RuntimeExceptions/StateCoverNotCompleteException
+HealthcareSystem 19:10:06.797 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\HealthcareSystem\HealthcareSystem.txt
+HealthcareSystem 19:10:06.797 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\HealthcareSystem\HealthcareSystem.pdf
+HealthcareSystem 19:10:06.848 [pool-5-thread-1] ERROR org.jsxm.jsxmcore.util.XML - IOException : 
+HealthcareSystem 19:10:06.848 [pool-5-thread-1] INFO  org.jsxm.jsxmcore.util.XML - exploded
+HealthcareSystem 19:10:06.866 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\HealthcareSystem\HealthcareSystem.txt
+HealthcareSystem 19:10:06.866 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\HealthcareSystem\HealthcareSystem.pdf
