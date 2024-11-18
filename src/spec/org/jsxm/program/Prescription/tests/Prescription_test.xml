@@ -1,0 +1,1629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns="http://www.jsxm.org/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.jsxm.org/schema http://www.jsxm.org/schema/test_set.xsd" k="2">
+  <definitions />
+  <sequences>
+    <sequence name="getContent">
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="isUsed">
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="use">
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">xzumfth</name>
+          <quantity type="xs:int">7</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_getContent">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">wllyeba</name>
+          <quantity type="xs:int">8</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{wllyeba=8}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_isUsed">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">orbankk</name>
+          <quantity type="xs:int">5</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{orbankk=5}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_use">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">hejngrl</name>
+          <quantity type="xs:int">6</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{hejngrl=6}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">eectizo</name>
+          <quantity type="xs:int">2</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">rwrxcil</name>
+          <quantity type="xs:int">4</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">ldcceue</name>
+          <quantity type="xs:int">5</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_addItem_addItem">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">qhvbcsc</name>
+          <quantity type="xs:int">2</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{qhvbcsc=2}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">cmxnmdv</name>
+          <quantity type="xs:int">3</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{qhvbcsc=2, cmxnmdv=3}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">jdpwrxu</name>
+          <quantity type="xs:int">10</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{qhvbcsc=2, jdpwrxu=10, cmxnmdv=3}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="addItem_addItem_close">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">cvcivks</name>
+          <quantity type="xs:int">7</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{cvcivks=7}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">hkbofgx</name>
+          <quantity type="xs:int">6</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{hkbofgx=6, cvcivks=7}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+    </sequence>
+    <sequence name="addItem_addItem_getContent">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">hhfatzz</name>
+          <quantity type="xs:int">3</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{hhfatzz=3}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">edmcxjx</name>
+          <quantity type="xs:int">10</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{hhfatzz=3, edmcxjx=10}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_addItem_isUsed">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">qnodlcj</name>
+          <quantity type="xs:int">5</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{qnodlcj=5}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">ujpwffk</name>
+          <quantity type="xs:int">4</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{qnodlcj=5, ujpwffk=4}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_addItem_use">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">fccoeye</name>
+          <quantity type="xs:int">1</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{fccoeye=1}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">xyoxfan</name>
+          <quantity type="xs:int">4</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{xyoxfan=4, fccoeye=1}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_close_addItem">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">gixecks</name>
+          <quantity type="xs:int">3</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{gixecks=3}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">glhprgs</name>
+          <quantity type="xs:int">10</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_close_close">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">sdpoqik</name>
+          <quantity type="xs:int">4</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{sdpoqik=4}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="addItem_close_getContent">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">eocefnz</name>
+          <quantity type="xs:int">7</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{eocefnz=7}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{eocefnz=7}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="addItem_close_isUsed">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">calvyhi</name>
+          <quantity type="xs:int">3</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{calvyhi=3}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="addItem_close_use">
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">pceruyy</name>
+          <quantity type="xs:int">1</quantity>
+        </input>
+        <output name="addItemOutput">
+          <result type="xs:string">{pceruyy=1}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">bqfdfnx</name>
+          <quantity type="xs:int">5</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_getContent_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">ghudcwb</name>
+          <quantity type="xs:int">3</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_getContent_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_getContent_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_getContent_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_getContent_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_isUsed_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">gxznrmm</name>
+          <quantity type="xs:int">3</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_isUsed_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_isUsed_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_isUsed_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_isUsed_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_use_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">xrxfbkk</name>
+          <quantity type="xs:int">1</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_use_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_use_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_getContent_use_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_getContent_use_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_getContent_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">hsgpczz</name>
+          <quantity type="xs:int">10</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_getContent_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_getContent_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_getContent_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_getContent_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_isUsed_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">ruggavs</name>
+          <quantity type="xs:int">10</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_isUsed_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_isUsed_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_isUsed_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_isUsed_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_use_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">ajcvxnw</name>
+          <quantity type="xs:int">5</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_use_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_use_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_use_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_isUsed_use_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">false</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_isUsed_addItem">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="addItem" />
+        <input name="addItemInput">
+          <name type="xs:string">uljrqxa</name>
+          <quantity type="xs:int">6</quantity>
+        </input>
+        <output name="addItemInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_isUsed_close">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_isUsed_getContent">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="getContent" />
+        <input name="getContentInput" />
+        <output name="getContentInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_isUsed_isUsed">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="close_use_isUsed_isUsed_use">
+      <call>
+        <function name="close" />
+        <input name="closeInput" />
+        <output name="closeOutput" />
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="isUsed" />
+        <input name="isUsedInput" />
+        <output name="isUsedOutput">
+          <result type="xs:boolean">true</result>
+        </output>
+      </call>
+      <call>
+        <function name="use" />
+        <input name="useInput" />
+        <output name="useInput_Error" />
+      </call>
+    </sequence>
+  </sequences>
+</set>
+

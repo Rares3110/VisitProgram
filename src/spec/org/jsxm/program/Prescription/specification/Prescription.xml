@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SXM name="Prescription"
+	xmlns="http://www.jsxm.org/schema"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.jsxm.org/schema http://www.jsxm.org/schema/specification.xsd">
+
+	<!--States definition-->
+	<states>
+		<state name="open"/>
+		<state name="ready"/>
+		<state name="used"/>
+	</states>
+
+	<!--Initial State definition-->
+	<initialState state="open"/>
+
+	<!--Transitions definition-->
+	<transitions>
+		<transition from="open" function="addItem" to="open"/>
+		<transition from="open" function="close" to="ready"/>
+
+		<transition from="ready" function="getContent" to="ready"/>
+		<transition from="ready" function="isUsed" to="ready"/>
+		<transition from="ready" function="use" to="used"/>
+
+		<transition from="used" function="isUsed" to="used"/>
+	</transitions>
+
+	<!--Memory definition-->
+	<memory>
+		<declaration>
+			HashMap&lt;String, Integer&gt; cart;
+			boolean internalIsUsed;
+		</declaration>
+		<initial>
+			cart = new HashMap&lt;String, Integer&gt;();
+			internalIsUsed = false;
+		</initial>
+		<display>cart.toString() + " " + internalIsUsed</display>
+		<javaImports>
+			import java.util.HashMap;
+			import java.util.*;
+		</javaImports>
+	</memory>
+
+	<!--Inputs definition-->
+	<inputs>
+		<input name="addItemInput">
+			<arg name="name" type="xs:string"/>
+			<arg name="quantity" type="xs:int"/>
+		</input>
+		<input name="closeInput"/>
+		<input name="getContentInput"/>
+		<input name="isUsedInput"/>
+		<input name="useInput"/>
+	</inputs>
+
+	<!--Outputs definition-->
+	<outputs>
+		<output name="addItemOutput">
+			<result name="result" type="xs:string"/>
+		</output>
+
+		<output name="closeOutput"/>
+
+		<output name="getContentOutput">
+			<result name="result" type="xs:string"/>
+		</output>
+
+		<output name="isUsedOutput">
+			<result name="result" type="xs:boolean"/>
+		</output>
+
+		<output name="useOutput">
+			<result name="result" type="xs:boolean"/>
+		</output>
+	</outputs>
+
+	<!--Functions definition-->
+	<functions>
+		<function name="addItem" input="addItemInput" output="addItemOutput" xsi:type="OutputFunction">
+			<precondition>
+				addItemInput.get_quantity() &gt; 0
+			</precondition>
+			<effect>
+				cart.put(addItemInput.get_name(), addItemInput.get_quantity());
+				addItemOutput.result = cart.toString();
+			</effect>
+		</function>
+
+		<function name="close" input="closeInput" output="closeOutput" xsi:type="OutputFunction"/>
+
+		<function name="getContent" input="getContentInput" output="getContentOutput" xsi:type="OutputFunction">
+			<effect>
+				getContentOutput.result = cart.toString();
+			</effect>
+		</function>
+
+		<function name="isUsed" input="isUsedInput" output="isUsedOutput" xsi:type="OutputFunction">
+			<effect>
+				isUsedOutput.result = internalIsUsed;
+			</effect>
+		</function>
+
+		<function name="use" input="useInput" output="useOutput" xsi:type="OutputFunction">
+			<effect>
+				internalIsUsed = true;
+				useOutput.result = internalIsUsed;
+			</effect>
+		</function>
+	</functions>
+
+	<!--Test Input Generation definition-->
+	<testinputgeneration>
+		<inputgenerator function="addItem">
+			String characters = "abcdefghijklmnopqrstuvwxyz";
+			StringBuilder randomName = new StringBuilder();
+			Random random = new Random();
+
+			for (int i = 0; i &lt; 7; i++) {
+            	int randomIndex = random.nextInt(characters.length());
+            	randomName.append(characters.charAt(randomIndex));
+        	}
+
+			addItemInput.set_name(randomName.toString());
+        	addItemInput.set_quantity(random.nextInt(10) + 1);
+		</inputgenerator>
+
+		<inputgenerator function="close"/>
+		<inputgenerator function="getContent"/>
+		<inputgenerator function="isUsed"/>
+		<inputgenerator function="use"/>
+	</testinputgeneration>
+
+</SXM>
