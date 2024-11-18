@@ -4,6 +4,40 @@
 		  xsi:schemaLocation="http://www.jsxm.org/schema http://www.jsxm.org/schema/input.xsd">
 
 	<call>
-		<input name="consultInput"/>
+		<input name="pacientListInput"/>
+	</call>
+	<call>
+		<input name="addPacientInput">
+			<id type="xs:string">Jack</id>
+		</input>
+	</call>
+	<call>
+		<input name="addPacientInput">
+			<id type="xs:string">John</id>
+		</input>
+	</call>
+	<call>
+		<input name="removePacientInput">
+			<id type="xs:string">Jack</id>
+		</input>
+	</call>
+	<call>
+		<input name="consultInput">
+			<id type="xs:string">John</id>
+		</input>
+	</call>
+	<call>
+		<input name="informationsInput"/>
+	</call>
+	<call>
+		<input name="assignPrescriptionInput">
+			<prescriptionString type="xs:string">ibuprofen;5</prescriptionString>
+		</input>
+	</call>
+	<call>
+		<input name="informationsInput"/>
+	</call>
+	<call>
+		<input name="finishInput"/>
 	</call>
 </sequence>

@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="137" failures="0" name="org.jsxm.program.HealthcareSystemJsxmAdapterTest" time="0.012" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-1.8\jre\bin"/>
+    <property name="java.vm.version" value="25.421-b09"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Rares\Desktop\VisitProgram"/>
+    <property name="java.runtime.version" value="1.8.0_421-b09"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Rares\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="classworlds.conf" value="C:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-1.8\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\java8path;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\Git\cmd;C:\Program Files (x86)\Google\Cloud SDK\google-cloud-sdk\bin;C:\Program Files (x86)\Common Files\Java\Java Update;C:\apache-ant-1.10.12\bin;C:\Users\Rares\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Git LFS;C:\Program Files\Microsoft SQL Server\Client SDK\ODBC\170\Tools\Binn\;C:\Program Files (x86)\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Program Files\MySQL\MySQL Server 8.1\bin;C:\Program Files\PostgreSQL\15\bin;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\dotnet\;C:\Program Files (x86)\Windows Kits\10\Windows Performance Toolkit\;C:\Program Files (x86)\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\Tools\Binn\;C:\Program Files\Microsoft SQL Server\160\DTS\Binn\;C:\Program Files\nodejs\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin;C:\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin;C:\Program Files\Java\jdk1.7.0_80\bin;C:\Users\Rares\AppData\Local\Programs\Python\Python311\Scripts\;C:\Users\Rares\AppData\Local\Programs\Python\Python311\;C:\Users\Rares\AppData\Local\Microsoft\WindowsApps;C:\Users\Rares\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\sfdx\bin;C:\Program Files\Java\jdk-19;&quot;C:\Program Files\Java\jdk-1.8\bin;&quot;;&quot;C:\apache-ant-1.10.15-bin\apache-ant-1.10.15\bin;C:\apache-ant-1.10.12\bin;C:\Users\Rares\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Program Files\Azure Data Studio\bin&quot;;C:\MinGW\bin;C:\Program Files\nodejs;;C:\Program Files\JetBrains\DataGrip 2023.2.2\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.1.4\bin;;C:\Users\Rares\.dotnet\tools;C:\Program Files\JetBrains\CLion 2024.1.2\bin;;C:\Users\Rares\AppData\Roaming\npm;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="user.home" value="C:\Users\Rares"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Rares"/>
+    <property name="java.class.path" value="C:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin\..\boot\plexus-classworlds-2.4.jar;C:\Users\Rares\Desktop\VisitProgram\target\temp\;C:\Users\Rares\.m2\repository\org\jsxm\jsxmcore\1.1.7\jsxmcore-1.1.7.jar;C:\Users\Rares\Desktop\VisitProgram\target\temp\;C:\Users\Rares\.m2\repository\org\jsxm\jsxmcore\1.1.7\jsxmcore-1.1.7.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-1.8\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean jsxm:generate test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_421"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk-1.8\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk-1.8\jre\lib\resources.jar;C:\Program Files\Java\jdk-1.8\jre\lib\rt.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jsse.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jce.jar;C:\Program Files\Java\jdk-1.8\jre\lib\charsets.jar;C:\Program Files\Java\jdk-1.8\jre\lib\jfr.jar;C:\Program Files\Java\jdk-1.8\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp850"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="maven.home" value="C:\apache-maven-3.0.5-bin\apache-maven-3.0.5\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp850"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_70_pacientList_addPacient_consult_pacientList_addPacient_pacientList" time="0.003"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_24_pacientList_addPacient_consult_informations_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_120_pacientList_addPacient_consult_informations_assignPrescription_pacientList" time="0.001"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_19_pacientList_addPacient_consult_pacientList_assignPrescription" time="0.001"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_61_pacientList_addPacient_removePacient_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_103_pacientList_addPacient_consult_assignPrescription_informations_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_136_pacientList_addPacient_consult_informations_finish_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_111_pacientList_addPacient_consult_assignPrescription_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_107_pacientList_addPacient_consult_assignPrescription_finish_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_13_pacientList_addPacient_finish_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_82_pacientList_addPacient_consult_pacientList_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_135_pacientList_addPacient_consult_informations_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_137_pacientList_addPacient_consult_informations_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_16_pacientList_addPacient_finish_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_23_pacientList_addPacient_consult_assignPrescription_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_26_pacientList_addPacient_consult_informations_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_89_pacientList_addPacient_consult_assignPrescription_pacientList_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_2_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_22_pacientList_addPacient_consult_assignPrescription_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_116_pacientList_addPacient_consult_informations_pacientList_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_75_pacientList_addPacient_consult_pacientList_addPacient_finish" time="0.001"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_130_pacientList_addPacient_consult_informations_informations_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_10_pacientList_addPacient_consult_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_12_pacientList_addPacient_removePacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_133_pacientList_addPacient_consult_informations_finish_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_44_pacientList_addPacient_addPacient_removePacient_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_101_pacientList_addPacient_consult_assignPrescription_informations_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_106_pacientList_addPacient_consult_assignPrescription_informations_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_31_pacientList_addPacient_consult_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_67_pacientList_addPacient_consult_pacientList_consult_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_85_pacientList_addPacient_consult_pacientList_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_91_pacientList_addPacient_consult_assignPrescription_pacientList_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_43_pacientList_addPacient_addPacient_addPacient_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_6_pacientList_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_32_pacientList_addPacient_addPacient_consult_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_55_pacientList_addPacient_removePacient_addPacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_114_pacientList_addPacient_consult_informations_pacientList_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_87_pacientList_addPacient_consult_assignPrescription_pacientList_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_79_pacientList_addPacient_consult_pacientList_removePacient_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_80_pacientList_addPacient_consult_pacientList_removePacient_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_88_pacientList_addPacient_consult_assignPrescription_pacientList_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_53_pacientList_addPacient_addPacient_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_60_pacientList_addPacient_removePacient_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_14_pacientList_addPacient_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_127_pacientList_addPacient_consult_informations_informations_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_34_pacientList_addPacient_addPacient_consult_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_110_pacientList_addPacient_consult_assignPrescription_finish_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_131_pacientList_addPacient_consult_informations_informations_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_36_pacientList_addPacient_addPacient_consult_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_41_pacientList_addPacient_addPacient_addPacient_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_1_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_102_pacientList_addPacient_consult_assignPrescription_informations_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_48_pacientList_addPacient_addPacient_removePacient_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_118_pacientList_addPacient_consult_informations_pacientList_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_38_pacientList_addPacient_addPacient_consult_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_83_pacientList_addPacient_consult_pacientList_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_104_pacientList_addPacient_consult_assignPrescription_informations_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_46_pacientList_addPacient_addPacient_removePacient_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_59_pacientList_addPacient_removePacient_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_126_pacientList_addPacient_consult_informations_informations_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_81_pacientList_addPacient_consult_pacientList_finish_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_128_pacientList_addPacient_consult_informations_informations_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_68_pacientList_addPacient_consult_pacientList_consult_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_29_pacientList_addPacient_consult_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_72_pacientList_addPacient_consult_pacientList_addPacient_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_121_pacientList_addPacient_consult_informations_assignPrescription_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_64_pacientList_addPacient_consult_pacientList_consult_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_132_pacientList_addPacient_consult_informations_informations_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_113_pacientList_addPacient_consult_informations_pacientList_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_74_pacientList_addPacient_consult_pacientList_addPacient_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_76_pacientList_addPacient_consult_pacientList_removePacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_39_pacientList_addPacient_addPacient_addPacient_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_122_pacientList_addPacient_consult_informations_assignPrescription_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_134_pacientList_addPacient_consult_informations_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_18_pacientList_addPacient_consult_pacientList_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_52_pacientList_addPacient_addPacient_finish_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_84_pacientList_addPacient_consult_pacientList_finish_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_96_pacientList_addPacient_consult_assignPrescription_assignPrescription_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_9_pacientList_addPacient_consult_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_62_pacientList_addPacient_consult_pacientList_consult_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_71_pacientList_addPacient_consult_pacientList_addPacient_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_124_pacientList_addPacient_consult_informations_assignPrescription_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_7_pacientList_finish_finish" time="0.001"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_93_pacientList_addPacient_consult_assignPrescription_assignPrescription_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_3_pacientList_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_51_pacientList_addPacient_addPacient_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_129_pacientList_addPacient_consult_informations_informations_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_78_pacientList_addPacient_consult_pacientList_removePacient_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_100_pacientList_addPacient_consult_assignPrescription_informations_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_47_pacientList_addPacient_addPacient_removePacient_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_28_pacientList_addPacient_consult_finish_pacientList" time="0.001"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_25_pacientList_addPacient_consult_informations_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_8_pacientList_addPacient_consult_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_20_pacientList_addPacient_consult_pacientList_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_90_pacientList_addPacient_consult_assignPrescription_pacientList_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_35_pacientList_addPacient_addPacient_consult_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_11_pacientList_addPacient_addPacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_42_pacientList_addPacient_addPacient_addPacient_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_66_pacientList_addPacient_consult_pacientList_consult_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_5_pacientList_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_40_pacientList_addPacient_addPacient_addPacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_77_pacientList_addPacient_consult_pacientList_removePacient_addPacient" time="0.002"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_30_pacientList_addPacient_consult_finish_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_65_pacientList_addPacient_consult_pacientList_consult_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_99_pacientList_addPacient_consult_assignPrescription_assignPrescription_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_109_pacientList_addPacient_consult_assignPrescription_finish_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_17_pacientList_addPacient_finish_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_58_pacientList_addPacient_removePacient_addPacient_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_50_pacientList_addPacient_addPacient_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_54_pacientList_addPacient_removePacient_addPacient_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_115_pacientList_addPacient_consult_informations_pacientList_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_63_pacientList_addPacient_consult_pacientList_consult_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_45_pacientList_addPacient_addPacient_removePacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_92_pacientList_addPacient_consult_assignPrescription_pacientList_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_98_pacientList_addPacient_consult_assignPrescription_assignPrescription_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_95_pacientList_addPacient_consult_assignPrescription_assignPrescription_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_117_pacientList_addPacient_consult_informations_pacientList_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_33_pacientList_addPacient_addPacient_consult_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_125_pacientList_addPacient_consult_informations_assignPrescription_finish" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_37_pacientList_addPacient_addPacient_consult_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_94_pacientList_addPacient_consult_assignPrescription_assignPrescription_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_56_pacientList_addPacient_removePacient_addPacient_addPacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_21_pacientList_addPacient_consult_assignPrescription_consult" time="0.001"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_73_pacientList_addPacient_consult_pacientList_addPacient_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_108_pacientList_addPacient_consult_assignPrescription_finish_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_27_pacientList_addPacient_consult_finish_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_105_pacientList_addPacient_consult_assignPrescription_informations_informations" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_69_pacientList_addPacient_consult_pacientList_addPacient_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_57_pacientList_addPacient_removePacient_addPacient_removePacient" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_123_pacientList_addPacient_consult_informations_assignPrescription_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_119_pacientList_addPacient_consult_informations_assignPrescription_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_112_pacientList_addPacient_consult_informations_pacientList_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_49_pacientList_addPacient_addPacient_finish_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_86_pacientList_addPacient_consult_assignPrescription_pacientList_consult" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_4_pacientList_addPacient_pacientList" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_97_pacientList_addPacient_consult_assignPrescription_assignPrescription_assignPrescription" time="0"/>
+  <testcase classname="org.jsxm.program.HealthcareSystemJsxmAdapterTest" name="test_k2_15_pacientList_addPacient_finish_addPacient" time="0.001"/>
+</testsuite>

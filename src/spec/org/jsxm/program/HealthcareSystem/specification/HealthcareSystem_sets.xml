@@ -14,5 +14,25 @@
 	<statecover>
 		<sequence>
 		</sequence>
+
+		<sequence>
+			<function name="pacientList"/>
+		</sequence>
+
+		<sequence>
+			<function name="pacientList"/>
+			<function name="addPacient"/>
+		</sequence>
+
+		<sequence>
+			<function name="pacientList"/>
+			<function name="addPacient"/>
+			<function name="consult"/>
+		</sequence>
+
+		<sequence>
+			<function name="pacientList"/>
+			<function name="finish"/>
+		</sequence>
 	</statecover>
 </sets>

@@ -4,8 +4,62 @@
 		  xsi:schemaLocation="http://www.jsxm.org/schema http://www.jsxm.org/schema/output.xsd">
 
 	<call>
-		<input name="consultInput"/>
+		<input name="pacientListInput"/>
+		<output name="pacientListOutput">
+			<result type="xs:string">{}</result>
+		</output>
+	</call>
+	<call>
+		<input name="addPacientInput">
+			<id type="xs:string">Jack</id>
+		</input>
+		<output name="addPacientOutput">
+			<result type="xs:string">{Jack}</result>
+		</output>
+	</call>
+	<call>
+		<input name="addPacientInput">
+			<id type="xs:string">John</id>
+		</input>
+		<output name="addPacientOutput">
+			<result type="xs:string">{John;Jack}</result>
+		</output>
+	</call>
+	<call>
+		<input name="removePacientInput">
+			<id type="xs:string">Jack</id>
+		</input>
+		<output name="removePacientOutput">
+			<result type="xs:string">{John}</result>
+		</output>
+	</call>
+	<call>
+		<input name="consultInput">
+			<id type="xs:string">John</id>
+		</input>
 		<output name="consultOutput"/>
+	</call>
+	<call>
+		<input name="informationsInput"/>
+		<output name="informationsOutput">
+			<result type="xs:string"></result>
+		</output>
+	</call>
+	<call>
+		<input name="assignPrescriptionInput">
+			<prescriptionString type="xs:string">ibuprofen;5</prescriptionString>
+		</input>
+		<output name="assignPrescriptionOutput"/>
+	</call>
+	<call>
+		<input name="informationsInput"/>
+		<output name="informationsOutput">
+			<result type="xs:string">{ibuprofen=5}</result>
+		</output>
+	</call>
+	<call>
+		<input name="finishInput"/>
+		<output name="finishOutput"/>
 	</call>
 </sequence>
 

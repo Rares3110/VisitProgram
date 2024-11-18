@@ -27,7 +27,7 @@ public class PrescriptionJsxmAdapterTest{
     public void test_k2_4_close_addItem() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
         assertEquals("closeOutput", obj.closeInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("nshngck", 5));
+        assertEquals("addItemInput_Error", obj.addItemInput("tcyfrkn", 3));
     }
 
     @Test
@@ -40,21 +40,21 @@ public class PrescriptionJsxmAdapterTest{
     @Test
     public void test_k2_6_addItem_getContent() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{pgtuore=6}", obj.addItemInput("pgtuore", 6));
+        assertEquals("addItemOutput_{koccubl=6}", obj.addItemInput("koccubl", 6));
         assertEquals("getContentInput_Error", obj.getContentInput());
     }
 
     @Test
     public void test_k2_7_addItem_isUsed() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{imglldi=7}", obj.addItemInput("imglldi", 7));
+        assertEquals("addItemOutput_{lsmdwpr=7}", obj.addItemInput("lsmdwpr", 7));
         assertEquals("isUsedInput_Error", obj.isUsedInput());
     }
 
     @Test
     public void test_k2_8_addItem_use() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{sbaackz=8}", obj.addItemInput("sbaackz", 8));
+        assertEquals("addItemOutput_{jwyzqrh=4}", obj.addItemInput("jwyzqrh", 4));
         assertEquals("useInput_Error", obj.useInput());
     }
 
@@ -63,7 +63,7 @@ public class PrescriptionJsxmAdapterTest{
         PrescriptionAdapter obj = new PrescriptionAdapter();
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("useOutput_true", obj.useInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("cmbxpno", 10));
+        assertEquals("addItemInput_Error", obj.addItemInput("lpzcmyy", 4));
     }
 
     @Test
@@ -95,7 +95,7 @@ public class PrescriptionJsxmAdapterTest{
         PrescriptionAdapter obj = new PrescriptionAdapter();
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("getContentOutput_{}", obj.getContentInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("joncspl", 6));
+        assertEquals("addItemInput_Error", obj.addItemInput("jufeurh", 7));
     }
 
     @Test
@@ -111,7 +111,7 @@ public class PrescriptionJsxmAdapterTest{
         PrescriptionAdapter obj = new PrescriptionAdapter();
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("oqiohwo", 3));
+        assertEquals("addItemInput_Error", obj.addItemInput("wxyywsu", 4));
     }
 
     @Test
@@ -125,55 +125,55 @@ public class PrescriptionJsxmAdapterTest{
     @Test
     public void test_k2_17_addItem_addItem_addItem() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{exdgavk=10}", obj.addItemInput("exdgavk", 10));
-        assertEquals("addItemOutput_{exdgavk=10, akpqrgo=8}", obj.addItemInput("akpqrgo", 8));
-        assertEquals("addItemOutput_{edxbjlp=9, exdgavk=10, akpqrgo=8}", obj.addItemInput("edxbjlp", 9));
+        assertEquals("addItemOutput_{kafwojs=8}", obj.addItemInput("kafwojs", 8));
+        assertEquals("addItemOutput_{kafwojs=8, njzhjkz=5}", obj.addItemInput("njzhjkz", 5));
+        assertEquals("addItemOutput_{kafwojs=8, njzhjkz=5, utyiums=7}", obj.addItemInput("utyiums", 7));
     }
 
     @Test
     public void test_k2_18_addItem_addItem_close() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{nrgjbvu=4}", obj.addItemInput("nrgjbvu", 4));
-        assertEquals("addItemOutput_{ikwhzlj=5, nrgjbvu=4}", obj.addItemInput("ikwhzlj", 5));
+        assertEquals("addItemOutput_{mpnqqxz=10}", obj.addItemInput("mpnqqxz", 10));
+        assertEquals("addItemOutput_{kpgqtsg=1, mpnqqxz=10}", obj.addItemInput("kpgqtsg", 1));
         assertEquals("closeOutput", obj.closeInput());
     }
 
     @Test
     public void test_k2_19_addItem_addItem_getContent() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{cilrsgn=7}", obj.addItemInput("cilrsgn", 7));
-        assertEquals("addItemOutput_{cilrsgn=7, umsolbb=10}", obj.addItemInput("umsolbb", 10));
+        assertEquals("addItemOutput_{ekljhhg=9}", obj.addItemInput("ekljhhg", 9));
+        assertEquals("addItemOutput_{ekljhhg=9, syxmckm=7}", obj.addItemInput("syxmckm", 7));
         assertEquals("getContentInput_Error", obj.getContentInput());
     }
 
     @Test
     public void test_k2_20_addItem_addItem_isUsed() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{jrohncm=8}", obj.addItemInput("jrohncm", 8));
-        assertEquals("addItemOutput_{fjzuabq=5, jrohncm=8}", obj.addItemInput("fjzuabq", 5));
+        assertEquals("addItemOutput_{veslxqd=8}", obj.addItemInput("veslxqd", 8));
+        assertEquals("addItemOutput_{veslxqd=8, ibhxrjw=3}", obj.addItemInput("ibhxrjw", 3));
         assertEquals("isUsedInput_Error", obj.isUsedInput());
     }
 
     @Test
     public void test_k2_21_addItem_addItem_use() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{fbvutrl=7}", obj.addItemInput("fbvutrl", 7));
-        assertEquals("addItemOutput_{nttzekx=4, fbvutrl=7}", obj.addItemInput("nttzekx", 4));
+        assertEquals("addItemOutput_{vxkacit=9}", obj.addItemInput("vxkacit", 9));
+        assertEquals("addItemOutput_{vxkacit=9, sjkqjil=4}", obj.addItemInput("sjkqjil", 4));
         assertEquals("useInput_Error", obj.useInput());
     }
 
     @Test
     public void test_k2_22_addItem_close_addItem() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{opetfhe=10}", obj.addItemInput("opetfhe", 10));
+        assertEquals("addItemOutput_{eslqevl=7}", obj.addItemInput("eslqevl", 7));
         assertEquals("closeOutput", obj.closeInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("auodptu", 5));
+        assertEquals("addItemInput_Error", obj.addItemInput("bjooics", 4));
     }
 
     @Test
     public void test_k2_23_addItem_close_close() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{ebxpavg=9}", obj.addItemInput("ebxpavg", 9));
+        assertEquals("addItemOutput_{nukywkw=7}", obj.addItemInput("nukywkw", 7));
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("closeInput_Error", obj.closeInput());
     }
@@ -181,15 +181,15 @@ public class PrescriptionJsxmAdapterTest{
     @Test
     public void test_k2_24_addItem_close_getContent() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{ivlehlc=9}", obj.addItemInput("ivlehlc", 9));
+        assertEquals("addItemOutput_{gkqfgfi=5}", obj.addItemInput("gkqfgfi", 5));
         assertEquals("closeOutput", obj.closeInput());
-        assertEquals("getContentOutput_{ivlehlc=9}", obj.getContentInput());
+        assertEquals("getContentOutput_{gkqfgfi=5}", obj.getContentInput());
     }
 
     @Test
     public void test_k2_25_addItem_close_isUsed() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{ugknscq=10}", obj.addItemInput("ugknscq", 10));
+        assertEquals("addItemOutput_{kqcrdta=4}", obj.addItemInput("kqcrdta", 4));
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
     }
@@ -197,7 +197,7 @@ public class PrescriptionJsxmAdapterTest{
     @Test
     public void test_k2_26_addItem_close_use() {
         PrescriptionAdapter obj = new PrescriptionAdapter();
-        assertEquals("addItemOutput_{faqcbwm=10}", obj.addItemInput("faqcbwm", 10));
+        assertEquals("addItemOutput_{kmibcvh=7}", obj.addItemInput("kmibcvh", 7));
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("useOutput_true", obj.useInput());
     }
@@ -208,7 +208,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("useOutput_true", obj.useInput());
         assertEquals("isUsedOutput_true", obj.isUsedInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("ynfnkek", 9));
+        assertEquals("addItemInput_Error", obj.addItemInput("wovtnwu", 1));
     }
 
     @Test
@@ -244,7 +244,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("getContentOutput_{}", obj.getContentInput());
         assertEquals("getContentOutput_{}", obj.getContentInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("twvzvyq", 10));
+        assertEquals("addItemInput_Error", obj.addItemInput("kldjpuj", 8));
     }
 
     @Test
@@ -289,7 +289,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("getContentOutput_{}", obj.getContentInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("szgtida", 9));
+        assertEquals("addItemInput_Error", obj.addItemInput("cnaodlf", 1));
     }
 
     @Test
@@ -334,7 +334,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("getContentOutput_{}", obj.getContentInput());
         assertEquals("useOutput_true", obj.useInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("ctuqopl", 7));
+        assertEquals("addItemInput_Error", obj.addItemInput("fwfnasx", 6));
     }
 
     @Test
@@ -379,7 +379,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
         assertEquals("getContentOutput_{}", obj.getContentInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("lddupwl", 7));
+        assertEquals("addItemInput_Error", obj.addItemInput("itdltns", 9));
     }
 
     @Test
@@ -424,7 +424,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("oqfbeja", 3));
+        assertEquals("addItemInput_Error", obj.addItemInput("sfkgood", 3));
     }
 
     @Test
@@ -469,7 +469,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("closeOutput", obj.closeInput());
         assertEquals("isUsedOutput_false", obj.isUsedInput());
         assertEquals("useOutput_true", obj.useInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("szyvdyr", 2));
+        assertEquals("addItemInput_Error", obj.addItemInput("dxqmxgo", 7));
     }
 
     @Test
@@ -515,7 +515,7 @@ public class PrescriptionJsxmAdapterTest{
         assertEquals("useOutput_true", obj.useInput());
         assertEquals("isUsedOutput_true", obj.isUsedInput());
         assertEquals("isUsedOutput_true", obj.isUsedInput());
-        assertEquals("addItemInput_Error", obj.addItemInput("ambdjcw", 7));
+        assertEquals("addItemInput_Error", obj.addItemInput("ivlrvyx", 7));
     }
 
     @Test

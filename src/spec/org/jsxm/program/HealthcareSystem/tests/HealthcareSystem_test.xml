@@ -1,0 +1,5645 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns="http://www.jsxm.org/schema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.jsxm.org/schema http://www.jsxm.org/schema/test_set.xsd" k="2">
+  <definitions />
+  <sequences>
+    <sequence name="addPacient">
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ickpdhb</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="finish">
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vsjxjhl</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{vsjxjhl}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">bbvgevc</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vsgkddc</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{vsgkddc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">vsgkddc</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">vsgkddc</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">yeztdkk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yeztdkk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">yeztdkk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qslsoxf</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wriussm</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wriussm}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wriussm</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">wriussm</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">asjxxff</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{asjxxff}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xbcglte</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{xbcglte;asjxxff}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mcdkmfy</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{mcdkmfy}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">mcdkmfy</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_finish_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">sfuvyrn</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{sfuvyrn}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">sfuvyrn</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mgiizhj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{mgiizhj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">tygxghn</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{tygxghn}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">hrihqud</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_finish_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cdxnntj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cdxnntj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">cdxnntj</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wwonbla</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wwonbla}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">gcofvum</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{gcofvum}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">gcofvum</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{gcofvum}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">yeuwxgf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yeuwxgf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">yeuwxgf</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{yeuwxgf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">ztmryrg;31</prescriptionString>
+        </input>
+        <output name="assignPrescriptionInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dvajndo</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dvajndo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">dvajndo</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{dvajndo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">tlxndfs</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{tlxndfs}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">tlxndfs</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">xqufxst;9</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">tlxndfs</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wwzsykq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wwzsykq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wwzsykq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">xwzshwi;6</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wxnwxeo</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">tmnskzq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{tmnskzq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">tmnskzq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">cdkbneb;21</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">tmnskzq</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">drzwwtd</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{drzwwtd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">drzwwtd</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">drzwwtd</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ldyeava</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ldyeava}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ldyeava</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ybhvbyv</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lcyndsw</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{lcyndsw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">lcyndsw</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">lcyndsw</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_finish_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xzpvvgo</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{xzpvvgo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">xzpvvgo</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">xzpvvgo</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wwhcntu</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wwhcntu}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wwhcntu</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dezbuxr</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dezbuxr}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">dezbuxr</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ccoggmx</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_finish_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">apujeyo</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{apujeyo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">apujeyo</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">apujeyo</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">unjarys</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{unjarys}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">unjarys</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xhzrjpl</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{xhzrjpl}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wsahrrp</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wsahrrp;xhzrjpl}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">xhzrjpl</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">xhzrjpl</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pacpxxw</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pacpxxw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pjshhaj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pjshhaj;pacpxxw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">pacpxxw</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{pjshhaj;pacpxxw}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pwmwwrt</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pwmwwrt}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">swkiyrn</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{swkiyrn;pwmwwrt}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">pwmwwrt</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xccflbh</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">yjwotks</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yjwotks}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vsvyotm</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yjwotks;vsvyotm}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">yjwotks</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">vsvyotm</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vweajwd</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{vweajwd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">yamitgg</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{vweajwd;yamitgg}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">vweajwd</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">idubiiq;31</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ttpqiud</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ttpqiud}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">oasfmpx</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ttpqiud;oasfmpx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">oasfmpx</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_consult_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">nitzjyu</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{nitzjyu}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wlozmfk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{nitzjyu;wlozmfk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">nitzjyu</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_addPacient_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qtkkskt</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qtkkskt}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">uwagyyu</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qtkkskt;uwagyyu}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mqtkyzf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qtkkskt;mqtkyzf;uwagyyu}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">uwagyyu</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_addPacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kdphkmf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kdphkmf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">yulhewi</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yulhewi;kdphkmf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kajrmpf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yulhewi;kdphkmf;kajrmpf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_addPacient_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">egpflcd</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{egpflcd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">euwwegc</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{euwwegc;egpflcd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lcndxqj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{euwwegc;egpflcd;lcndxqj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vpygzrm</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{euwwegc;egpflcd;lcndxqj;vpygzrm}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_addPacient_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">sudxays</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{sudxays}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">loxdgix</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{loxdgix;sudxays}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cleqwgb</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{loxdgix;cleqwgb;sudxays}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">sudxays</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{loxdgix;cleqwgb}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_addPacient_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wiybvvo</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wiybvvo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lsrqxhz</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wiybvvo;lsrqxhz}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lduysln</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{lduysln;wiybvvo;lsrqxhz}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_removePacient_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">erpypff</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{erpypff}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">venplax</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{venplax;erpypff}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">erpypff</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{venplax}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">venplax</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_removePacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cmibwgk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cmibwgk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">oqfrzsw</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cmibwgk;oqfrzsw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">oqfrzsw</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{cmibwgk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_removePacient_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dgdegut</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dgdegut}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">aljiskj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dgdegut;aljiskj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">dgdegut</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{aljiskj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">zmlgzrc</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{zmlgzrc;aljiskj}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_removePacient_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vhswwwc</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{vhswwwc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pzlnncl</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pzlnncl;vhswwwc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">pzlnncl</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{vhswwwc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">vhswwwc</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_removePacient_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">zzzpnsr</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{zzzpnsr}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">btfubol</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{zzzpnsr;btfubol}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">zzzpnsr</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{btfubol}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_finish_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ndnnpyh</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ndnnpyh}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qrevpet</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qrevpet;ndnnpyh}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">qrevpet</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lwcgjez</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{lwcgjez}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">urrrkvt</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{urrrkvt;lwcgjez}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kilyjhl</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kilyjhl}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xsfeogc</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kilyjhl;xsfeogc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qywwbda</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_finish_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">hyovvxf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{hyovvxf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">umlvoqb</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{hyovvxf;umlvoqb}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">hyovvxf</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_addPacient_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">rqthwof</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{rqthwof}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">txqithp</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{txqithp;rqthwof}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_addPacient_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lzfeumt</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{lzfeumt}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">lzfeumt</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ifwdyet</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ifwdyet}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ifwdyet</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_addPacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ggqtbvs</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ggqtbvs}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">ggqtbvs</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cfoknqz</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cfoknqz}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_addPacient_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qitgaeq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qitgaeq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">qitgaeq</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">rexbjum</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{rexbjum}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qxhzqnz</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{rexbjum;qxhzqnz}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_addPacient_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">bxtkqky</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{bxtkqky}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">bxtkqky</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">svcyhri</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{svcyhri}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">svcyhri</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_addPacient_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xotmzvk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{xotmzvk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">xotmzvk</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qelgrge</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qelgrge}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dqvfpss</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dqvfpss}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">dqvfpss</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">grbusxd</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{grbusxd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">grbusxd</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dcsmlwi</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_removePacient_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">byftxia</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{byftxia}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">byftxia</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mlgcqbk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{mlgcqbk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">mlgcqbk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{mlgcqbk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">mlgcqbk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">mlgcqbk</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wceqqos</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wceqqos}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wceqqos</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{wceqqos}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wceqqos</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{wceqqos}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">fgtgqdx</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{fgtgqdx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">fgtgqdx</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{fgtgqdx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">fgtgqdx</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xxmhtzl</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">llxsokq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{llxsokq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">llxsokq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{llxsokq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">llxsokq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">llxsokq</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">rdhymmn</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{rdhymmn}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">rdhymmn</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{rdhymmn}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">rdhymmn</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">suvkjmg;22</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">wewjwyb</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{wewjwyb}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wewjwyb</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{wewjwyb}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">wewjwyb</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_consult_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cqmqizi</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cqmqizi}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">cqmqizi</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{cqmqizi}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">cqmqizi</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kkmyaki</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kkmyaki}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">kkmyaki</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{kkmyaki}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">iiytooj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{iiytooj;kkmyaki}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">kkmyaki</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">idemfhe</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{idemfhe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">idemfhe</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{idemfhe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xhcwtkz</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{xhcwtkz;idemfhe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">olbggvk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{olbggvk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">olbggvk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{olbggvk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">toepqvk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{toepqvk;olbggvk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">fokjega</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{toepqvk;fokjega;olbggvk}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">fmmmgqx</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{fmmmgqx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">fmmmgqx</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{fmmmgqx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">sedcqyz</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{sedcqyz;fmmmgqx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">sedcqyz</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{fmmmgqx}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">rtloukd</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{rtloukd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">rtloukd</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{rtloukd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mjttolg</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{rtloukd;mjttolg}</result>
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">gvgbclt;3</prescriptionString>
+        </input>
+        <output name="assignPrescriptionInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">tukphtf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{tukphtf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">tukphtf</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{tukphtf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">eeaocbj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{eeaocbj;tukphtf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_addPacient_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">igjqjlk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{igjqjlk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">igjqjlk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{igjqjlk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ryscbob</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{igjqjlk;ryscbob}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_removePacient_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">thcctkf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{thcctkf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">thcctkf</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{thcctkf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">thcctkf</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_removePacient_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pgzicgw</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pgzicgw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">pgzicgw</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{pgzicgw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">pgzicgw</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">lfstnmh</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{lfstnmh}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_removePacient_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pjmbabe</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pjmbabe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">pjmbabe</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{pjmbabe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">pjmbabe</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">nnmlnvq;1</prescriptionString>
+        </input>
+        <output name="assignPrescriptionInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_removePacient_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">tmeqhhc</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{tmeqhhc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">tmeqhhc</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{tmeqhhc}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">tmeqhhc</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_removePacient_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">nkcpsxi</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{nkcpsxi}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">nkcpsxi</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{nkcpsxi}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">nkcpsxi</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_finish_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">zjnckgo</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{zjnckgo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">zjnckgo</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{zjnckgo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">zjnckgo</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dlgkznm</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dlgkznm}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">dlgkznm</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{dlgkznm}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">vkgkdhs</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{vkgkdhs}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">vkgkdhs</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{vkgkdhs}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">obaetda</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_finish_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">uuvurtv</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{uuvurtv}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">uuvurtv</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{uuvurtv}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">uuvurtv</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_pacientList_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">heuuozf</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{heuuozf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">heuuozf</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{heuuozf}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">eklzyen</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{eklzyen}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">eklzyen</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">tsrzpfr;52</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{eklzyen}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">eklzyen</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pjdtzza</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{pjdtzza}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">pjdtzza</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">wpcvjgq;42</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{pjdtzza}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">jhzjeba</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{jhzjeba}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">jhzjeba</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">tbnrpjs;95</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{jhzjeba}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ipmarpe</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{jhzjeba;ipmarpe}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">njgfwuo</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{njgfwuo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">njgfwuo</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">evxowvw;19</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{njgfwuo}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">njgfwuo</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">egynqux</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{egynqux}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">egynqux</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">erducqh;22</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{egynqux}</result>
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">xubtzpw;38</prescriptionString>
+        </input>
+        <output name="assignPrescriptionInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">oukjlxe</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{oukjlxe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">oukjlxe</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">qxtvmka;68</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{oukjlxe}</result>
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_pacientList_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">bvmwqqr</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{bvmwqqr}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">bvmwqqr</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">ezgzzhf;31</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{bvmwqqr}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">munhqup</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{munhqup}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">munhqup</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">nmdisit;3</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">qwldnbx;3</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">munhqup</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dxdguqh</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dxdguqh}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">dxdguqh</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">feixabp;52</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">zgfhgsx;11</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{dxdguqh}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ovgpphq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ovgpphq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ovgpphq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">dlcrwof;35</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">vgsvsmo;24</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">pocowfu</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">myiklux</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{myiklux}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">myiklux</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">mlewqeh;22</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">gtfpxui;35</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">myiklux</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">itlhacp</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{itlhacp}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">itlhacp</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">skjafnp;41</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">zsdmeuy;41</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">xwijbpq;97</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qyoadln</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qyoadln}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">qyoadln</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">ejanmxr;11</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">avgvhpd;60</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{ejanmxr=11}{avgvhpd=60}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_assignPrescription_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">proyimg</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{proyimg}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">proyimg</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">yymxpmp;11</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">qtkyhgt;62</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">oyfnkzm</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{oyfnkzm}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">oyfnkzm</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">ifdktqf;44</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{ifdktqf=44}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">oyfnkzm</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">btqxpii</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{btqxpii}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">btqxpii</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">kzgbafk;40</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{kzgbafk=40}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{btqxpii}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ppkcrzd</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ppkcrzd}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ppkcrzd</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">fugsivc;65</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{fugsivc=65}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">gnfzqpp</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dpgsqvw</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dpgsqvw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">dpgsqvw</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">itfacvy;40</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{itfacvy=40}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">dpgsqvw</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">apvujxb</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{apvujxb}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">apvujxb</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">whkrmmp;82</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{whkrmmp=82}</result>
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">izzezra;24</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mmzvhtn</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{mmzvhtn}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">mmzvhtn</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">znruvhn;78</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{znruvhn=78}</result>
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{znruvhn=78}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_informations_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kjekjic</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kjekjic}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">kjekjic</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">szattca;81</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{szattca=81}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_finish_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">hwppvdn</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{hwppvdn}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">hwppvdn</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">skliolu;13</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">hwppvdn</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">fzfhgek</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{fzfhgek}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">fzfhgek</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">fooqbis;79</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ovwgsqr</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ovwgsqr}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ovwgsqr</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">yiitdmi;12</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">trrdyat</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_finish_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">bxxxsre</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{bxxxsre}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">bxxxsre</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">rmjgsdw;3</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">bxxxsre</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_assignPrescription_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">gzpcrau</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{gzpcrau}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">gzpcrau</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">luixaii;94</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">bfbarja</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{bfbarja}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">bfbarja</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{bfbarja}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">bfbarja</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">phtfhhp</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{phtfhhp}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">phtfhhp</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{phtfhhp}</result>
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">emgwgbj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{emgwgbj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">emgwgbj</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{emgwgbj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">qnkfcts</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{qnkfcts;emgwgbj}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">yflmdcy</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{yflmdcy}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">yflmdcy</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{yflmdcy}</result>
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">yflmdcy</id>
+        </input>
+        <output name="removePacientOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">eiyttzp</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{eiyttzp}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">eiyttzp</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{eiyttzp}</result>
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">xwnosam;94</prescriptionString>
+        </input>
+        <output name="assignPrescriptionInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">muvyyvg</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{muvyyvg}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">muvyyvg</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{muvyyvg}</result>
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_pacientList_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">jsyalrl</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{jsyalrl}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">jsyalrl</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{jsyalrl}</result>
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ituznut</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ituznut}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ituznut</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">kjrnjmx;58</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ituznut</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">flkislk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{flkislk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">flkislk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">lovzrlo;95</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{flkislk}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">xquuhax</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{xquuhax}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">xquuhax</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">cniycis;26</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">djjaqml</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">fuvsdtj</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{fuvsdtj}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">fuvsdtj</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">jodsukd;36</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">fuvsdtj</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cuwajjb</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cuwajjb}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">cuwajjb</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">uyveicj;80</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">kmvqbct;96</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">cgznirq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{cgznirq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">cgznirq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">vivgdwv;83</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string">{vivgdwv=83}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_assignPrescription_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">slxniut</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{slxniut}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">slxniut</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">glejfme;69</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">mificoz</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{mificoz}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">mificoz</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">mificoz</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">hhbacab</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{hhbacab}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">hhbacab</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{hhbacab}</result>
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">hqnzwuq</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{hqnzwuq}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">hqnzwuq</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">uoagemd</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kqmueqv</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kqmueqv}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">kqmueqv</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">kqmueqv</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_assignPrescription">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">dygxnli</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{dygxnli}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">dygxnli</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="assignPrescription" />
+        <input name="assignPrescriptionInput">
+          <prescriptionString type="xs:string">nmnwgxa;70</prescriptionString>
+        </input>
+        <output name="assignPrescriptionOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_informations">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">ivzllue</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{ivzllue}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">ivzllue</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_informations_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">jucplxg</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{jucplxg}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">jucplxg</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_finish_consult">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">swawyhw</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{swawyhw}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">swawyhw</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">swawyhw</id>
+        </input>
+        <output name="consultInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_finish_pacientList">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">plmbuxk</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{plmbuxk}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">plmbuxk</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_finish_addPacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">tspigce</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{tspigce}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">tspigce</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">nvjmxjg</id>
+        </input>
+        <output name="addPacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_finish_removePacient">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">gtydeyx</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{gtydeyx}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">gtydeyx</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="removePacient" />
+        <input name="removePacientInput">
+          <id type="xs:string">gtydeyx</id>
+        </input>
+        <output name="removePacientInput_Error" />
+      </call>
+    </sequence>
+    <sequence name="pacientList_addPacient_consult_informations_finish_finish">
+      <call>
+        <function name="pacientList" />
+        <input name="pacientListInput" />
+        <output name="pacientListOutput">
+          <result type="xs:string">{}</result>
+        </output>
+      </call>
+      <call>
+        <function name="addPacient" />
+        <input name="addPacientInput">
+          <id type="xs:string">kdozway</id>
+        </input>
+        <output name="addPacientOutput">
+          <result type="xs:string">{kdozway}</result>
+        </output>
+      </call>
+      <call>
+        <function name="consult" />
+        <input name="consultInput">
+          <id type="xs:string">kdozway</id>
+        </input>
+        <output name="consultOutput" />
+      </call>
+      <call>
+        <function name="informations" />
+        <input name="informationsInput" />
+        <output name="informationsOutput">
+          <result type="xs:string" />
+        </output>
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishOutput" />
+      </call>
+      <call>
+        <function name="finish" />
+        <input name="finishInput" />
+        <output name="finishInput_Error" />
+      </call>
+    </sequence>
+  </sequences>
+</set>
+

@@ -1,252 +1,252 @@
-Prescription 19:10:06.254 [pool-3-thread-2] ERROR org.jsxm.jsxmcore.util.XML - IOException : No 'definitions.xml' file. Continue with no definitions.
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - TYPES USED in the specification: 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - Standard types: 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:boolean 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:int 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:string 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - User defined types: 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
+Prescription 01:42:50.381 [pool-3-thread-2] ERROR org.jsxm.jsxmcore.util.XML - IOException : No 'definitions.xml' file. Continue with no definitions.
+Prescription 01:42:50.385 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - TYPES USED in the specification: 
+Prescription 01:42:50.386 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - Standard types: 
+Prescription 01:42:50.386 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:boolean 
+Prescription 01:42:50.386 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:int 
+Prescription 01:42:50.386 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - xs:string 
+Prescription 01:42:50.386 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - User defined types: 
+Prescription 01:42:50.386 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
 
-Prescription 19:10:06.261 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
+Prescription 01:42:50.386 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
 Warning in the specification:
-Prescription 19:10:06.261 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - No [methods] tag.
-Prescription 19:10:06.261 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
+Prescription 01:42:50.386 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - No [methods] tag.
+Prescription 01:42:50.386 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
 
-Prescription 19:10:06.261 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
+Prescription 01:42:50.386 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
 Warning in the specification:
-Prescription 19:10:06.261 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - No [methods] tag.
-Prescription 19:10:06.261 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
+Prescription 01:42:50.386 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - No [methods] tag.
+Prescription 01:42:50.386 [pool-3-thread-2] WARN  org.jsxm.jsxmcore.core.SXMBaseGeneration - 
 
-Prescription 19:10:06.261 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - [closeInput -> closeOutput # [], useInput -> useOutput # [], addItemInput -> addItemOutput # [], getContentInput -> getContentOutput # [], isUsedInput -> isUsedOutput # []]
-Prescription 19:10:06.265 [pool-3-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompiler - ---  Java files from JSXM specification Prescription.xml generated successfully ---
-Prescription 19:10:06.715 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.txt
-Prescription 19:10:06.715 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.pdf
-Prescription 19:10:06.738 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.SetsReader - No [separablestates] tag in C:\Users\Rares\Desktop\VisitProgram/src/spec/org\jsxm\program\Prescription\\specification\Prescription_sets.xml
-Prescription 19:10:06.738 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.SetsReader - It is assumed that all states are pairwire separable.
-Prescription 19:10:06.738 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - STATE COVER : [[], [close], [close,use]]
-Prescription 19:10:06.739 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - CHARACTERIZATION SET : [[]]
-Prescription 19:10:06.739 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - FUNCTION SET : [addItem, close, getContent, isUsed, use]
-Prescription 19:10:06.739 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - All states are assumed to be pairwise separable. Applying W-method
-Prescription 19:10:06.740 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.Various - ------------------------------------------------------------
-Prescription 19:10:06.740 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - Generating test set sequences for the associated automaton.
-Prescription 19:10:06.740 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - S PHI[k+1] W
-Prescription 19:10:06.740 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - Resulting sequences: [f1,...,fk,fk+1], where [f1,...,fk] in Language
-Prescription 19:10:06.740 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - k = 2
-Prescription 19:10:06.741 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=0
-Prescription 19:10:06.741 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=1
-Prescription 19:10:06.741 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=2
-Prescription 19:10:06.742 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=3
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - 81 test cases
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 1 : [] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 2 : [close] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 3 : [addItem] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 4 : [getContent] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 5 : [isUsed] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 6 : [use] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 7 : [close,use] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 8 : [close,addItem] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 9 : [close,close] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 10 : [close,getContent] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 11 : [close,isUsed] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 12 : [addItem,addItem] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 13 : [addItem,close] 
-Prescription 19:10:06.743 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 14 : [addItem,getContent] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 15 : [addItem,isUsed] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 16 : [addItem,use] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 17 : [close,use,addItem] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 18 : [close,use,close] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 19 : [close,use,getContent] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 20 : [close,use,isUsed] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 21 : [close,use,use] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 22 : [close,getContent,addItem] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 23 : [close,getContent,close] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 24 : [close,getContent,getContent] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 25 : [close,getContent,isUsed] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 26 : [close,getContent,use] 
-Prescription 19:10:06.745 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 27 : [close,isUsed,addItem] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 28 : [close,isUsed,close] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 29 : [close,isUsed,getContent] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 30 : [close,isUsed,isUsed] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 31 : [close,isUsed,use] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 32 : [addItem,addItem,addItem] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 33 : [addItem,addItem,close] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 34 : [addItem,addItem,getContent] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 35 : [addItem,addItem,isUsed] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 36 : [addItem,addItem,use] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 37 : [addItem,close,addItem] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 38 : [addItem,close,close] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 39 : [addItem,close,getContent] 
-Prescription 19:10:06.746 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 40 : [addItem,close,isUsed] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 41 : [addItem,close,use] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 42 : [close,use,isUsed,addItem] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 43 : [close,use,isUsed,close] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 44 : [close,use,isUsed,getContent] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 45 : [close,use,isUsed,isUsed] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 46 : [close,use,isUsed,use] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 47 : [close,getContent,getContent,addItem] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 48 : [close,getContent,getContent,close] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 49 : [close,getContent,getContent,getContent] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 50 : [close,getContent,getContent,isUsed] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 51 : [close,getContent,getContent,use] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 52 : [close,getContent,isUsed,addItem] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 53 : [close,getContent,isUsed,close] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 54 : [close,getContent,isUsed,getContent] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 55 : [close,getContent,isUsed,isUsed] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 56 : [close,getContent,isUsed,use] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 57 : [close,getContent,use,addItem] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 58 : [close,getContent,use,close] 
-Prescription 19:10:06.747 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 59 : [close,getContent,use,getContent] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 60 : [close,getContent,use,isUsed] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 61 : [close,getContent,use,use] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 62 : [close,isUsed,getContent,addItem] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 63 : [close,isUsed,getContent,close] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 64 : [close,isUsed,getContent,getContent] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 65 : [close,isUsed,getContent,isUsed] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 66 : [close,isUsed,getContent,use] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 67 : [close,isUsed,isUsed,addItem] 
-Prescription 19:10:06.749 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 68 : [close,isUsed,isUsed,close] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 69 : [close,isUsed,isUsed,getContent] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 70 : [close,isUsed,isUsed,isUsed] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 71 : [close,isUsed,isUsed,use] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 72 : [close,isUsed,use,addItem] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 73 : [close,isUsed,use,close] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 74 : [close,isUsed,use,getContent] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 75 : [close,isUsed,use,isUsed] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 76 : [close,isUsed,use,use] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 77 : [close,use,isUsed,isUsed,addItem] 
-Prescription 19:10:06.750 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 78 : [close,use,isUsed,isUsed,close] 
-Prescription 19:10:06.751 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 79 : [close,use,isUsed,isUsed,getContent] 
-Prescription 19:10:06.751 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 80 : [close,use,isUsed,isUsed,isUsed] 
-Prescription 19:10:06.751 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 81 : [close,use,isUsed,isUsed,use] 
-Prescription 19:10:06.751 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.Various - ------------------------------------------------------------
-Prescription 19:10:06.751 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Removing sequences which are subsequences
-Prescription 19:10:06.751 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - of other longer sequences in the test set.
-Prescription 19:10:06.755 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - 65 test cases. 16 prefixes removed.
-Prescription 19:10:06.755 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 1 : [getContent] 
-Prescription 19:10:06.755 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 2 : [isUsed] 
-Prescription 19:10:06.755 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 3 : [use] 
-Prescription 19:10:06.755 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 4 : [close,addItem] 
-Prescription 19:10:06.755 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 5 : [close,close] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 6 : [addItem,getContent] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 7 : [addItem,isUsed] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 8 : [addItem,use] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 9 : [close,use,addItem] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 10 : [close,use,close] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 11 : [close,use,getContent] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 12 : [close,use,use] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 13 : [close,getContent,addItem] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 14 : [close,getContent,close] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 15 : [close,isUsed,addItem] 
-Prescription 19:10:06.756 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 16 : [close,isUsed,close] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 17 : [addItem,addItem,addItem] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 18 : [addItem,addItem,close] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 19 : [addItem,addItem,getContent] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 20 : [addItem,addItem,isUsed] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 21 : [addItem,addItem,use] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 22 : [addItem,close,addItem] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 23 : [addItem,close,close] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 24 : [addItem,close,getContent] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 25 : [addItem,close,isUsed] 
-Prescription 19:10:06.757 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 26 : [addItem,close,use] 
-Prescription 19:10:06.758 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 27 : [close,use,isUsed,addItem] 
-Prescription 19:10:06.758 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 28 : [close,use,isUsed,close] 
-Prescription 19:10:06.758 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 29 : [close,use,isUsed,getContent] 
-Prescription 19:10:06.758 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 30 : [close,use,isUsed,use] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 31 : [close,getContent,getContent,addItem] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 32 : [close,getContent,getContent,close] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 33 : [close,getContent,getContent,getContent] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 34 : [close,getContent,getContent,isUsed] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 35 : [close,getContent,getContent,use] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 36 : [close,getContent,isUsed,addItem] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 37 : [close,getContent,isUsed,close] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 38 : [close,getContent,isUsed,getContent] 
-Prescription 19:10:06.759 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 39 : [close,getContent,isUsed,isUsed] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 40 : [close,getContent,isUsed,use] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 41 : [close,getContent,use,addItem] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 42 : [close,getContent,use,close] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 43 : [close,getContent,use,getContent] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 44 : [close,getContent,use,isUsed] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 45 : [close,getContent,use,use] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 46 : [close,isUsed,getContent,addItem] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 47 : [close,isUsed,getContent,close] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 48 : [close,isUsed,getContent,getContent] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 49 : [close,isUsed,getContent,isUsed] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 50 : [close,isUsed,getContent,use] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 51 : [close,isUsed,isUsed,addItem] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 52 : [close,isUsed,isUsed,close] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 53 : [close,isUsed,isUsed,getContent] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 54 : [close,isUsed,isUsed,isUsed] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 55 : [close,isUsed,isUsed,use] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 56 : [close,isUsed,use,addItem] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 57 : [close,isUsed,use,close] 
-Prescription 19:10:06.760 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 58 : [close,isUsed,use,getContent] 
-Prescription 19:10:06.762 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 59 : [close,isUsed,use,isUsed] 
-Prescription 19:10:06.769 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 60 : [close,isUsed,use,use] 
-Prescription 19:10:06.769 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 61 : [close,use,isUsed,isUsed,addItem] 
-Prescription 19:10:06.770 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 62 : [close,use,isUsed,isUsed,close] 
-Prescription 19:10:06.770 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 63 : [close,use,isUsed,isUsed,getContent] 
-Prescription 19:10:06.770 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 64 : [close,use,isUsed,isUsed,isUsed] 
-Prescription 19:10:06.770 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 65 : [close,use,isUsed,isUsed,use] 
-Prescription 19:10:06.770 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.Various - ------------------------------------------------------------
-Prescription 19:10:06.770 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Reducing sequences to applicable
-Prescription 19:10:06.772 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - 0 sequences shortened.
-Prescription 19:10:06.772 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - 0 sequences became empty (or were duplicates) and were removed.
-Prescription 19:10:06.772 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Time : 34
-Prescription 19:10:06.772 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [getContent]
-Prescription 19:10:06.772 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: isUsedInput().	Function: isUsed	in seq: [isUsed]
-Prescription 19:10:06.772 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [use]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("nshngck"5).	Function: addItem	in seq: [close,addItem]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,close]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [addItem,getContent]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: isUsedInput().	Function: isUsed	in seq: [addItem,isUsed]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [addItem,use]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("cmbxpno"10).	Function: addItem	in seq: [close,use,addItem]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,use,close]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,use,getContent]
-Prescription 19:10:06.773 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,use,use]
-Prescription 19:10:06.774 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("joncspl"6).	Function: addItem	in seq: [close,getContent,addItem]
-Prescription 19:10:06.774 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,close]
-Prescription 19:10:06.774 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("oqiohwo"3).	Function: addItem	in seq: [close,isUsed,addItem]
-Prescription 19:10:06.774 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,close]
-Prescription 19:10:06.775 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [addItem,addItem,getContent]
-Prescription 19:10:06.775 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: isUsedInput().	Function: isUsed	in seq: [addItem,addItem,isUsed]
-Prescription 19:10:06.775 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [addItem,addItem,use]
-Prescription 19:10:06.775 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("auodptu"5).	Function: addItem	in seq: [addItem,close,addItem]
-Prescription 19:10:06.775 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [addItem,close,close]
-Prescription 19:10:06.776 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("ynfnkek"9).	Function: addItem	in seq: [close,use,isUsed,addItem]
-Prescription 19:10:06.776 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,use,isUsed,close]
-Prescription 19:10:06.776 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,use,isUsed,getContent]
-Prescription 19:10:06.776 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,use,isUsed,use]
-Prescription 19:10:06.776 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("twvzvyq"10).	Function: addItem	in seq: [close,getContent,getContent,addItem]
-Prescription 19:10:06.777 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,getContent,close]
-Prescription 19:10:06.777 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("szgtida"9).	Function: addItem	in seq: [close,getContent,isUsed,addItem]
-Prescription 19:10:06.777 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,isUsed,close]
-Prescription 19:10:06.777 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("ctuqopl"7).	Function: addItem	in seq: [close,getContent,use,addItem]
-Prescription 19:10:06.777 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,use,close]
-Prescription 19:10:06.777 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,getContent,use,getContent]
-Prescription 19:10:06.779 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,getContent,use,use]
-Prescription 19:10:06.779 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("lddupwl"7).	Function: addItem	in seq: [close,isUsed,getContent,addItem]
-Prescription 19:10:06.779 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,getContent,close]
-Prescription 19:10:06.779 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("oqfbeja"3).	Function: addItem	in seq: [close,isUsed,isUsed,addItem]
-Prescription 19:10:06.780 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,isUsed,close]
-Prescription 19:10:06.780 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("szyvdyr"2).	Function: addItem	in seq: [close,isUsed,use,addItem]
-Prescription 19:10:06.780 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,use,close]
-Prescription 19:10:06.780 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,isUsed,use,getContent]
-Prescription 19:10:06.780 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,isUsed,use,use]
-Prescription 19:10:06.781 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("ambdjcw"7).	Function: addItem	in seq: [close,use,isUsed,isUsed,addItem]
-Prescription 19:10:06.781 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,use,isUsed,isUsed,close]
-Prescription 19:10:06.781 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,use,isUsed,isUsed,getContent]
-Prescription 19:10:06.781 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,use,isUsed,isUsed,use]
-Prescription 19:10:06.792 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.XML - 
-Prescription 19:10:06.792 [pool-4-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerator -            -->SXM     Class : PrescriptionSXM.java
-Prescription 19:10:06.792 [pool-4-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerator -            -->SXMBase Class : PrescriptionSXM_base.java
-Prescription 19:10:06.793 [pool-4-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerator -            ###Prescription tests generated successfully###
+Prescription 01:42:50.387 [pool-3-thread-2] INFO  org.jsxm.jsxmcore.core.SXMBaseGeneration - [closeInput -> closeOutput # [], useInput -> useOutput # [], addItemInput -> addItemOutput # [], getContentInput -> getContentOutput # [], isUsedInput -> isUsedOutput # []]
+Prescription 01:42:50.389 [pool-3-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.compilation.sxm.SxmCompiler - ---  Java files from JSXM specification Prescription.xml generated successfully ---
+Prescription 01:42:50.860 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.txt
+Prescription 01:42:50.860 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.pdf
+Prescription 01:42:50.882 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.SetsReader - No [separablestates] tag in C:\Users\Rares\Desktop\VisitProgram/src/spec/org\jsxm\program\Prescription\\specification\Prescription_sets.xml
+Prescription 01:42:50.883 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.SetsReader - It is assumed that all states are pairwire separable.
+Prescription 01:42:50.883 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - STATE COVER : [[], [close], [close,use]]
+Prescription 01:42:50.884 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - CHARACTERIZATION SET : [[]]
+Prescription 01:42:50.884 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - FUNCTION SET : [addItem, close, getContent, isUsed, use]
+Prescription 01:42:50.884 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - All states are assumed to be pairwise separable. Applying W-method
+Prescription 01:42:50.884 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.Various - ------------------------------------------------------------
+Prescription 01:42:50.884 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - Generating test set sequences for the associated automaton.
+Prescription 01:42:50.885 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - S PHI[k+1] W
+Prescription 01:42:50.885 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - Resulting sequences: [f1,...,fk,fk+1], where [f1,...,fk] in Language
+Prescription 01:42:50.885 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - k = 2
+Prescription 01:42:50.885 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=0
+Prescription 01:42:50.885 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=1
+Prescription 01:42:50.885 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=2
+Prescription 01:42:50.886 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - PHI^n, n=3
+Prescription 01:42:50.888 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.WMethodTestCaseGenerator - 81 test cases
+Prescription 01:42:50.888 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 1 : [] 
+Prescription 01:42:50.888 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 2 : [close] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 3 : [addItem] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 4 : [getContent] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 5 : [isUsed] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 6 : [use] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 7 : [close,use] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 8 : [close,addItem] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 9 : [close,close] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 10 : [close,getContent] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 11 : [close,isUsed] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 12 : [addItem,addItem] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 13 : [addItem,close] 
+Prescription 01:42:50.889 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 14 : [addItem,getContent] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 15 : [addItem,isUsed] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 16 : [addItem,use] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 17 : [close,use,addItem] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 18 : [close,use,close] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 19 : [close,use,getContent] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 20 : [close,use,isUsed] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 21 : [close,use,use] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 22 : [close,getContent,addItem] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 23 : [close,getContent,close] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 24 : [close,getContent,getContent] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 25 : [close,getContent,isUsed] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 26 : [close,getContent,use] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 27 : [close,isUsed,addItem] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 28 : [close,isUsed,close] 
+Prescription 01:42:50.890 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 29 : [close,isUsed,getContent] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 30 : [close,isUsed,isUsed] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 31 : [close,isUsed,use] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 32 : [addItem,addItem,addItem] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 33 : [addItem,addItem,close] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 34 : [addItem,addItem,getContent] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 35 : [addItem,addItem,isUsed] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 36 : [addItem,addItem,use] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 37 : [addItem,close,addItem] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 38 : [addItem,close,close] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 39 : [addItem,close,getContent] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 40 : [addItem,close,isUsed] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 41 : [addItem,close,use] 
+Prescription 01:42:50.891 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 42 : [close,use,isUsed,addItem] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 43 : [close,use,isUsed,close] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 44 : [close,use,isUsed,getContent] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 45 : [close,use,isUsed,isUsed] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 46 : [close,use,isUsed,use] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 47 : [close,getContent,getContent,addItem] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 48 : [close,getContent,getContent,close] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 49 : [close,getContent,getContent,getContent] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 50 : [close,getContent,getContent,isUsed] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 51 : [close,getContent,getContent,use] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 52 : [close,getContent,isUsed,addItem] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 53 : [close,getContent,isUsed,close] 
+Prescription 01:42:50.892 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 54 : [close,getContent,isUsed,getContent] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 55 : [close,getContent,isUsed,isUsed] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 56 : [close,getContent,isUsed,use] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 57 : [close,getContent,use,addItem] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 58 : [close,getContent,use,close] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 59 : [close,getContent,use,getContent] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 60 : [close,getContent,use,isUsed] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 61 : [close,getContent,use,use] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 62 : [close,isUsed,getContent,addItem] 
+Prescription 01:42:50.893 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 63 : [close,isUsed,getContent,close] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 64 : [close,isUsed,getContent,getContent] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 65 : [close,isUsed,getContent,isUsed] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 66 : [close,isUsed,getContent,use] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 67 : [close,isUsed,isUsed,addItem] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 68 : [close,isUsed,isUsed,close] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 69 : [close,isUsed,isUsed,getContent] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 70 : [close,isUsed,isUsed,isUsed] 
+Prescription 01:42:50.894 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 71 : [close,isUsed,isUsed,use] 
+Prescription 01:42:50.895 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 72 : [close,isUsed,use,addItem] 
+Prescription 01:42:50.895 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 73 : [close,isUsed,use,close] 
+Prescription 01:42:50.895 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 74 : [close,isUsed,use,getContent] 
+Prescription 01:42:50.895 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 75 : [close,isUsed,use,isUsed] 
+Prescription 01:42:50.895 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 76 : [close,isUsed,use,use] 
+Prescription 01:42:50.895 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 77 : [close,use,isUsed,isUsed,addItem] 
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 78 : [close,use,isUsed,isUsed,close] 
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 79 : [close,use,isUsed,isUsed,getContent] 
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 80 : [close,use,isUsed,isUsed,isUsed] 
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 81 : [close,use,isUsed,isUsed,use] 
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.Various - ------------------------------------------------------------
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Removing sequences which are subsequences
+Prescription 01:42:50.896 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - of other longer sequences in the test set.
+Prescription 01:42:50.897 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - 65 test cases. 16 prefixes removed.
+Prescription 01:42:50.897 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 1 : [getContent] 
+Prescription 01:42:50.897 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 2 : [isUsed] 
+Prescription 01:42:50.897 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 3 : [use] 
+Prescription 01:42:50.898 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 4 : [close,addItem] 
+Prescription 01:42:50.898 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 5 : [close,close] 
+Prescription 01:42:50.898 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 6 : [addItem,getContent] 
+Prescription 01:42:50.898 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 7 : [addItem,isUsed] 
+Prescription 01:42:50.898 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 8 : [addItem,use] 
+Prescription 01:42:50.898 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 9 : [close,use,addItem] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 10 : [close,use,close] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 11 : [close,use,getContent] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 12 : [close,use,use] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 13 : [close,getContent,addItem] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 14 : [close,getContent,close] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 15 : [close,isUsed,addItem] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 16 : [close,isUsed,close] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 17 : [addItem,addItem,addItem] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 18 : [addItem,addItem,close] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 19 : [addItem,addItem,getContent] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 20 : [addItem,addItem,isUsed] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 21 : [addItem,addItem,use] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 22 : [addItem,close,addItem] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 23 : [addItem,close,close] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 24 : [addItem,close,getContent] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 25 : [addItem,close,isUsed] 
+Prescription 01:42:50.899 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 26 : [addItem,close,use] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 27 : [close,use,isUsed,addItem] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 28 : [close,use,isUsed,close] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 29 : [close,use,isUsed,getContent] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 30 : [close,use,isUsed,use] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 31 : [close,getContent,getContent,addItem] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 32 : [close,getContent,getContent,close] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 33 : [close,getContent,getContent,getContent] 
+Prescription 01:42:50.901 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 34 : [close,getContent,getContent,isUsed] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 35 : [close,getContent,getContent,use] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 36 : [close,getContent,isUsed,addItem] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 37 : [close,getContent,isUsed,close] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 38 : [close,getContent,isUsed,getContent] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 39 : [close,getContent,isUsed,isUsed] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 40 : [close,getContent,isUsed,use] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 41 : [close,getContent,use,addItem] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 42 : [close,getContent,use,close] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 43 : [close,getContent,use,getContent] 
+Prescription 01:42:50.902 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 44 : [close,getContent,use,isUsed] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 45 : [close,getContent,use,use] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 46 : [close,isUsed,getContent,addItem] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 47 : [close,isUsed,getContent,close] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 48 : [close,isUsed,getContent,getContent] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 49 : [close,isUsed,getContent,isUsed] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 50 : [close,isUsed,getContent,use] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 51 : [close,isUsed,isUsed,addItem] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 52 : [close,isUsed,isUsed,close] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 53 : [close,isUsed,isUsed,getContent] 
+Prescription 01:42:50.903 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 54 : [close,isUsed,isUsed,isUsed] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 55 : [close,isUsed,isUsed,use] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 56 : [close,isUsed,use,addItem] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 57 : [close,isUsed,use,close] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 58 : [close,isUsed,use,getContent] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 59 : [close,isUsed,use,isUsed] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 60 : [close,isUsed,use,use] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 61 : [close,use,isUsed,isUsed,addItem] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 62 : [close,use,isUsed,isUsed,close] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 63 : [close,use,isUsed,isUsed,getContent] 
+Prescription 01:42:50.904 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 64 : [close,use,isUsed,isUsed,isUsed] 
+Prescription 01:42:50.905 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - # 65 : [close,use,isUsed,isUsed,use] 
+Prescription 01:42:50.905 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.Various - ------------------------------------------------------------
+Prescription 01:42:50.905 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Reducing sequences to applicable
+Prescription 01:42:50.906 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - 0 sequences shortened.
+Prescription 01:42:50.906 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - 0 sequences became empty (or were duplicates) and were removed.
+Prescription 01:42:50.906 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Time : 23
+Prescription 01:42:50.906 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [getContent]
+Prescription 01:42:50.906 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: isUsedInput().	Function: isUsed	in seq: [isUsed]
+Prescription 01:42:50.906 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [use]
+Prescription 01:42:50.906 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("tcyfrkn"3).	Function: addItem	in seq: [close,addItem]
+Prescription 01:42:50.906 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,close]
+Prescription 01:42:50.906 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [addItem,getContent]
+Prescription 01:42:50.907 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: isUsedInput().	Function: isUsed	in seq: [addItem,isUsed]
+Prescription 01:42:50.907 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [addItem,use]
+Prescription 01:42:50.907 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("lpzcmyy"4).	Function: addItem	in seq: [close,use,addItem]
+Prescription 01:42:50.908 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,use,close]
+Prescription 01:42:50.908 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,use,getContent]
+Prescription 01:42:50.908 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,use,use]
+Prescription 01:42:50.908 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("jufeurh"7).	Function: addItem	in seq: [close,getContent,addItem]
+Prescription 01:42:50.908 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,close]
+Prescription 01:42:50.908 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("wxyywsu"4).	Function: addItem	in seq: [close,isUsed,addItem]
+Prescription 01:42:50.909 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,close]
+Prescription 01:42:50.909 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [addItem,addItem,getContent]
+Prescription 01:42:50.909 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: isUsedInput().	Function: isUsed	in seq: [addItem,addItem,isUsed]
+Prescription 01:42:50.909 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [addItem,addItem,use]
+Prescription 01:42:50.909 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("bjooics"4).	Function: addItem	in seq: [addItem,close,addItem]
+Prescription 01:42:50.910 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [addItem,close,close]
+Prescription 01:42:50.910 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("wovtnwu"1).	Function: addItem	in seq: [close,use,isUsed,addItem]
+Prescription 01:42:50.910 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,use,isUsed,close]
+Prescription 01:42:50.910 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,use,isUsed,getContent]
+Prescription 01:42:50.910 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,use,isUsed,use]
+Prescription 01:42:50.910 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("kldjpuj"8).	Function: addItem	in seq: [close,getContent,getContent,addItem]
+Prescription 01:42:50.911 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,getContent,close]
+Prescription 01:42:50.911 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("cnaodlf"1).	Function: addItem	in seq: [close,getContent,isUsed,addItem]
+Prescription 01:42:50.911 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,isUsed,close]
+Prescription 01:42:50.912 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("fwfnasx"6).	Function: addItem	in seq: [close,getContent,use,addItem]
+Prescription 01:42:50.912 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,getContent,use,close]
+Prescription 01:42:50.912 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,getContent,use,getContent]
+Prescription 01:42:50.912 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,getContent,use,use]
+Prescription 01:42:50.912 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("itdltns"9).	Function: addItem	in seq: [close,isUsed,getContent,addItem]
+Prescription 01:42:50.912 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,getContent,close]
+Prescription 01:42:50.913 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("sfkgood"3).	Function: addItem	in seq: [close,isUsed,isUsed,addItem]
+Prescription 01:42:50.913 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,isUsed,close]
+Prescription 01:42:50.913 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("dxqmxgo"7).	Function: addItem	in seq: [close,isUsed,use,addItem]
+Prescription 01:42:50.913 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,isUsed,use,close]
+Prescription 01:42:50.913 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,isUsed,use,getContent]
+Prescription 01:42:50.914 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,isUsed,use,use]
+Prescription 01:42:50.914 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: addItemInput("ivlrvyx"7).	Function: addItem	in seq: [close,use,isUsed,isUsed,addItem]
+Prescription 01:42:50.914 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: closeInput().	Function: close	in seq: [close,use,isUsed,isUsed,close]
+Prescription 01:42:50.914 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: getContentInput().	Function: getContent	in seq: [close,use,isUsed,isUsed,getContent]
+Prescription 01:42:50.914 [pool-4-thread-2] ERROR org.jsxm.jsxmcore.testcasegenerators.TestCaseGenerator - Unhandled input: useInput().	Function: use	in seq: [close,use,isUsed,isUsed,use]
+Prescription 01:42:50.922 [pool-4-thread-2] INFO  org.jsxm.jsxmcore.util.XML - 
+Prescription 01:42:50.922 [pool-4-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerator -            -->SXM     Class : PrescriptionSXM.java
+Prescription 01:42:50.922 [pool-4-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerator -            -->SXMBase Class : PrescriptionSXM_base.java
+Prescription 01:42:50.922 [pool-4-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmGenerator -            ###Prescription tests generated successfully###
 
-Prescription 19:10:06.801 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.txt
-Prescription 19:10:06.801 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.pdf
-Prescription 19:10:06.860 [pool-5-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformer -            -->Class under test : PrescriptionAdapter<--
-Prescription 19:10:06.861 [pool-5-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformer -            -->JUnit test class : PrescriptionJsxmAdapterTest<--
-Prescription 19:10:06.861 [pool-5-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformer -            ###Prescription tests transformed successfully###
+Prescription 01:42:50.993 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.txt
+Prescription 01:42:50.993 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.pdf
+Prescription 01:42:51.035 [pool-5-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformer -            -->Class under test : PrescriptionAdapter<--
+Prescription 01:42:51.035 [pool-5-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformer -            -->JUnit test class : PrescriptionJsxmAdapterTest<--
+Prescription 01:42:51.035 [pool-5-thread-2] INFO  org.jsxm.maven.plugin.jsxmtool.generation.SxmTransformer -            ###Prescription tests transformed successfully###
 
-Prescription 19:10:06.869 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.txt
-Prescription 19:10:06.869 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.pdf
+Prescription 01:42:51.072 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Txt path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.txt
+Prescription 01:42:51.073 [main] INFO  org.jsxm.maven.plugin.jsxmtool.utilities.JSXMUtils - Pdf path : C:\Users\Rares\Desktop\VisitProgram\src\spec\jsxmLogs\Prescription\Prescription.pdf

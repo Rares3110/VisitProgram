@@ -112,7 +112,14 @@ public class HealthcareSystemSXM extends HealthcareSystemSXM_base {
         @Override
         public void findArgsForPrecondition() throws DefinitionNotFoundException  {
 //*** INLINE CODE from <inputgenerator function="consult">***
-            ;
+            if (pacients.isEmpty()) {
+				consultInput.set_id("none");
+			} else {
+				Random random = new Random();
+        		Set<String> keys = pacients.keySet();
+        		int index = random.nextInt(keys.size());
+        		consultInput.set_id((String) keys.toArray()[index]);
+			};
 //*** END OF INLINE CODE  ***
         }
     };
@@ -168,7 +175,16 @@ public class HealthcareSystemSXM extends HealthcareSystemSXM_base {
         @Override
         public void findArgsForPrecondition() throws DefinitionNotFoundException  {
 //*** INLINE CODE from <inputgenerator function="addPacient">***
-            ;
+            String characters = "abcdefghijklmnopqrstuvwxyz";
+			StringBuilder randomName = new StringBuilder();
+			Random random = new Random();
+
+			for (int i = 0; i < 7; i++) {
+            	int randomIndex = random.nextInt(characters.length());
+            	randomName.append(characters.charAt(randomIndex));
+        	}
+
+			addPacientInput.set_id(randomName.toString());
 //*** END OF INLINE CODE  ***
         }
     };
@@ -199,7 +215,14 @@ public class HealthcareSystemSXM extends HealthcareSystemSXM_base {
         @Override
         public void findArgsForPrecondition() throws DefinitionNotFoundException  {
 //*** INLINE CODE from <inputgenerator function="removePacient">***
-            ;
+            if (pacients.isEmpty()) {
+				removePacientInput.set_id("none");
+			} else {
+				Random random = new Random();
+        		Set<String> keys = pacients.keySet();
+        		int index = random.nextInt(keys.size());
+        		removePacientInput.set_id((String) keys.toArray()[index]);
+			};
 //*** END OF INLINE CODE  ***
         }
     };
@@ -229,7 +252,18 @@ public class HealthcareSystemSXM extends HealthcareSystemSXM_base {
         @Override
         public void findArgsForPrecondition() throws DefinitionNotFoundException  {
 //*** INLINE CODE from <inputgenerator function="assignPrescription">***
-            ;
+            String characters = "abcdefghijklmnopqrstuvwxyz";
+			StringBuilder randomName = new StringBuilder();
+			Random random = new Random();
+
+			for (int i = 0; i < 7; i++) {
+            	int randomIndex = random.nextInt(characters.length());
+            	randomName.append(characters.charAt(randomIndex));
+        	}
+
+			String prescriptionString = randomName.toString() + ";" + random.nextInt(100);
+
+			assignPrescriptionInput.set_prescriptionString(prescriptionString);
 //*** END OF INLINE CODE  ***
         }
     };
